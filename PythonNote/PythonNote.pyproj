@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6539a1db-c3ab-4b45-9dfe-8ca45cf17994</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LambdaFunction.py</StartupFile>
+    <StartupFile>for.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="for.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HelloWorld.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LambdaFunction.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PythonNote - Copy.py" />
     <Compile Include="PythonNote.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
