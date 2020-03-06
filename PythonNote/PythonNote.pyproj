@@ -27,6 +27,7 @@
     <Compile Include="LambdaFunction.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PythonNote - Copy.py" />
     <Compile Include="PythonNote.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
